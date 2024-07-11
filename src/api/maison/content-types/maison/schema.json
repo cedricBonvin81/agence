@@ -21,7 +21,7 @@
     "lieux": {
       "type": "string"
     },
-    "description": {
+    "test": {
       "type": "richtext"
     }
   }
