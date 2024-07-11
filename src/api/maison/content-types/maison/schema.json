@@ -4,7 +4,8 @@
   "info": {
     "singularName": "maison",
     "pluralName": "maisons",
-    "displayName": "maison"
+    "displayName": "maison",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,11 +18,11 @@
     "price": {
       "type": "integer"
     },
-    "description": {
-      "type": "blocks"
-    },
     "lieux": {
       "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }

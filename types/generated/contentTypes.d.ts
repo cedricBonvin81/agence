@@ -368,6 +368,7 @@ export interface ApiMaisonMaison extends Schema.CollectionType {
     singularName: 'maison';
     pluralName: 'maisons';
     displayName: 'maison';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -375,8 +376,8 @@ export interface ApiMaisonMaison extends Schema.CollectionType {
   attributes: {
     title: Attribute.String;
     price: Attribute.Integer;
-    description: Attribute.Blocks;
     lieux: Attribute.String;
+    description: Attribute.RichText;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
